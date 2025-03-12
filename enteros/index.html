@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Clasificador de enteros</h1>
+            <br>
+        </div>
+        <div class="content">
+            Por favor introduce un numero entero para verificar si es positivo, negativo o cero
+        </div>
+        <form onsubmit="btn1(event)" id="form">
+        <input required type="number" id="numero" placeholder="Introduce un numero entero">
+        <br>
+        <button type="submit" id ="btn">Verificar</button>
+        </form>
+        <p id="resultado"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

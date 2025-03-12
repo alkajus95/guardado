@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items:center;
+    transition: background-color 0.3s;
+}
+.card{
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 1);
+    padding: 20px;
+    width: 400px;
+    transition: background-color 0.3s;
+}
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px soid #ccc;border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+button {
+    background-color: #0056b3;
+    color:#f4f4f4;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #0056b3;
+}
+.-mode{
+    background-color: #222;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+#btn-oscuro{
+    width: 100px;
+    align-self: center;
+    font-size: small;
+    margin-top: 10px;
+    background-color: black;
+}
+.dark-mode .card{
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode input{
+    background-color: #222;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode #btn-submit{
+    background-color: #0056b3;
+    transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode #btn-submit:hover{
+    background-color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode #btn-oscuro{
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode label{
+    color: white;
+}
+
+

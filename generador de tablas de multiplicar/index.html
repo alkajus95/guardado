@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Tabla de Multiplicar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .container:hover {
+            transform: scale(1.1);
+        }
+        
+        label {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        input[type="number"] {
+            width: 50px;
+            height: 30px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        button {
+            width: 100px;
+            height: 30px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #3e8e41;
+        }
+        
+        .result {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Tabla de Multiplicar</h1>
+        <label for="number">Ingrese un número:</label>
+        <input type="number" id="number" value="1">
+        <button onclick="generateTable()">Generar</button>
+        <div class="result" id="result"></div>
+    </div>
+    
+    <script>
+        function generateTable() {
+            let number = document.getElementById("number").value;
+            let result = "";
+            
+            for (let i = 1; i <= 10; i++) {
+                result += `${number} x ${i} = ${number * i}<br>`;
+            }
+            
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+</body>
+</html>

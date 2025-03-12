@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recetas</title>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        text-align: center;
+        }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    #receta {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+
+    form {
+      width: 50%;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    select {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }    button[type="button"] {
+      width: 100%;
+      height: 40px;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button[type="button"]:hover {
+      background-color: #3e8e41;
+    }
+  </style>
+</head>
+<body>
+  <h1>Recetas</h1>
+  <form>
+    <label for="tipoComida">Tipo de comida:</label>
+    <select id="tipoComida" name="tipoComida">
+      <option value="Vegetariana">Vegetariana</option>
+      <option value="Carne">Carne</option>
+      <option value="Postre">Postre</option>
+    </select>
+    <br>
+    <label for="tiempo">Tiempo:</label>
+    <select id="tiempo" name="tiempo">
+      <option value="Rápido">Rápido</option>
+      <option value="Moderado">Moderado</option>
+      <option value="Largo">Largo</option>
+    </select>
+    <br>
+    <button type="button" onclick="mostrarReceta(document.getElementById('tipoComida').value, document.getElementById('tiempo').value)">Mostrar receta</button>
+    <p id="receta"></p>
+
+  </form>
+  
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora IMC</h1>
+    <form>
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" required>
+        <br>
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura" required>
+        <br>
+        <button id="calcular">Calcular IMC</button>
+    </form>
+    <div id="resultado">
+        <p id="imc"></p>
+        <img id="imagen" src="" alt="">
+    </div>
+
+    <script>
+        const calcular = document.getElementById('calcular');
+        const peso = document.getElementById('peso');
+        const altura = document.getElementById('altura');
+        const resultado = document.getElementById('resultado');
+        const imc = document.getElementById('imc');
+        const imagen = document.getElementById('imagen');
+
+        calcular.addEventListener('click', (e) => {
+            e.preventDefault();
+            const pesoValue = parseFloat(peso.value);
+            const alturaValue = parseFloat(altura.value);
+            const imcValue = pesoValue / (alturaValue * alturaValue);
+
+            if (imcValue < 18.5) {
+                imagen.src = 'https://i.imgur.com/6xkxK4B.jpg';
+            } else if (imcValue < 25) {
+                imagen.src = 'https://i.imgur.com/6xkxK4B.jpg';
+            } else if (imcValue < 30) {
+                imagen.src = 'https://i.imgur.com/6xkxK4B.jpg';
+            } else if (imcValue < 35) {
+                imagen.src = 'https://i.imgur.com/6xkxK4B.jpg';
+            } else if (imcValue < 40) {
+                imagen.src = 'https://i.imgur.com/6xkxK4B.jpg';
+            } else {
+                imagen.src = 'https://i.imgur.com/6xkxK4B.jpg';
+            }
+
+            imc.textContent = `Tu IMC es: ${imcValue.toFixed(2)}`;
+            resultado.style.display = 'block';
+        })
+    </script>
+</body>
+</html>

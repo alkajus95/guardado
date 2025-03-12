@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <H1>asistente de selector de actividades</H1>
+        <form>
+            <label for="tipo">Tipo de usuario:</label>
+            <br>
+            <select id="tipo">
+                <option value="1">Niño</option>
+                <option value="2">Adolescente</option>
+                <option value="3">Adulto</option>
+                <option value="4">Adulto mayor</option>
+            </select>
+            <br>
+            <label for="preferencia">Preferencia de actividad</label>
+            <br>
+            <select id="Actividad">
+                <option value="1">Deportes</option>
+                <option value="2">cultura</option>
+                <option value="3">otros</option>
+            </select>
+            <br>
+            <button onsubmit="mostrarResultado()">Recomendar actividad</button>
+        </form>
+        <p id="final"></p>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<title>Estructura Básica de HTML</title>
+	<link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <div class="container">
+	<h1>Etiquetas de HTML</h1>
+	<button id="btn" onclick="modoOscuro()">ACTIVAR MODO OSCURO</button>
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;!DOCTYPE html&gt;</h2>
+		<div class="descripcion">
+			<p>Declara el tipo de documento y la versión de HTML que se utiliza.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;!DOCTYPE html&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;html&gt;</h2>
+		<div class="descripcion">
+			<p>Es la etiqueta raíz del documento HTML y contiene todas las demás etiquetas.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;html lang="es"&gt;&lt;/html&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;head&gt;</h2>
+		<div class="descripcion">
+			<p>Contiene información sobre el documento, como el título, los metadatos y los enlaces a archivos CSS o JavaScript.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;head&gt;&lt;title&gt;Mi Página&lt;/title&gt;&lt;/head&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;title&gt;</h2>
+		<div class="descripcion">
+			<p>Establece el título del documento, que se muestra en la barra de título del navegador.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;title&gt;Título de la página&lt;/title&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;body&gt;</h2>
+		<div class="descripcion">
+			<p>Contiene el contenido del documento, como texto, imágenes, enlaces, formularios, etc.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;body&gt;&lt;p&gt;Contenido de la página&lt;/p&gt;&lt;/body&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;h1&gt; - &lt;h6&gt;</h2>
+		<div class="descripcion">
+			<p>Definen los títulos de diferentes niveles, siendo &lt;h1&gt; el título más importante.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;h1&gt;Encabezado 1&lt;/h1&gt;</p>
+			<p>&lt;h2&gt;Encabezado 2&lt;/h2&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;p&gt;</h2>
+		<div class="descripcion">
+			<p>Define un párrafo de texto.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;p&gt;Este es un párrafo.&lt;/p&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;a&gt;</h2>
+		<div class="descripcion">
+			<p>Define un enlace a otra página web o a un correo electrónico.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;a href="https://www.ejemplo.com"&gt;Enlace&lt;/a&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;img&gt;</h2>
+		<div class="descripcion">
+			<p>Inserta una imagen en el documento.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;img src="imagen.jpg" alt="Descripción"&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;ul&gt; y &lt;ol&gt;</h2>
+		<div class="descripcion">
+			<p>Definen listas no ordenadas y ordenadas, respectivamente.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;ul&gt;&lt;li&gt;Elemento&lt;/li&gt;&lt;/ul&gt;</p>
+			<p>&lt;ol&gt;&lt;li&gt;Elemento&lt;/li&gt;&lt;/ol&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;li&gt;</h2>
+		<div class="descripcion">
+			<p>Define un elemento de una lista.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;li&gt;Elemento&lt;/li&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;table&gt;</h2>
+		<div class="descripcion">
+			<p>Define una tabla de datos.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Dato&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;tr&gt;</h2>
+		<div class="descripcion">
+			<p>Define una fila de una tabla.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;tr&gt;&lt;td&gt;Dato&lt;/td&gt;&lt;/tr&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;td&gt;</h2>
+		<div class="descripcion">
+			<p>Define una celda de una tabla.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;td&gt;Dato&lt;/td&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;form&gt;</h2>
+		<div class="descripcion">
+			<p>Define un formulario para recopilar datos del usuario.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;form&gt;&lt;input type="text"&gt;&lt;/form&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;input&gt;</h2>
+		<div class="descripcion">
+			<p>Define un campo de entrada de datos en un formulario.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;input type="text"&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;select&gt;</h2>
+		<div class="descripcion">
+			<p>Define un menú desplegable en un formulario.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;select&gt;&lt;option&gt;Opción&lt;/option&gt;&lt;/select&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;textarea&gt;</h2>
+		<div class="descripcion">
+			<p>Define un área de texto en un formulario.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;textarea&gt;Texto&lt;/textarea&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;button&gt;</h2>
+		<div class="descripcion">
+			<p>Define un botón en un formulario.</p>
+			<p>Ejemplo:</p>
+			<p>&lt;button&gt;Botón&lt;/button&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;div&gt;</h2>
+		<div class="descripcion">
+			<p>Define un contenedor genérico para otros elementos.</p>
+			<p>Ejemplo:&lt;div&gt;Contenido&lt;/div&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+		<h2>Etiqueta &lt;span&gt;</h2>
+		<div class="descripcion">
+			<p>Define un contenedor para texto o elementos en línea.</p>
+			<p>Ejemplo:&lt;span&gt;Texto&lt;/span&gt;</p>
+		</div>
+	</div>
+	
+	<div class="etiqueta">
+
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;header&gt;</h2>
+			<div class="descripcion">
+				<p>Define la cabecera de un documento o sección.</p>
+				<p>Ejemplo:&lt;header&gt;Cabecera&lt;/header&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;nav&gt;</h2>
+			<div class="descripcion">
+				<p>Define una sección de navegación.</p>
+				<p>Ejemplo:&lt;nav&gt;&lt;a href="#"&gt;Enlace&lt;/a&gt;&lt;/nav&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;main&gt;</h2>
+			<div class="descripcion">
+				<p>Define la sección principal de un documento.</p>
+				<p>Ejemplo:&lt;main&gt;Contenido principal&lt;/main&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;section&gt;</h2>
+			<div class="descripcion">
+				<p>Define una sección de un documento.</p>
+				<p>Ejemplo:&lt;section&gt;Sección&lt;/section&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;article&gt;</h2>
+			<div class="descripcion">
+				<p>Define un artículo o contenido independiente.</p>
+				<p>Ejemplo:&lt;article&gt;Artículo&lt;/article&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;aside&gt;</h2>
+			<div class="descripcion">
+				<p>Define un contenido relacionado con el contenido principal.</p>
+				<p>Ejemplo:&lt;aside&gt;Contenido relacionado&lt;/aside&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;footer&gt;</h2>
+			<div class="descripcion">
+				<p>Define el pie de página de un documento o sección.</p>
+				<p>Ejemplo:&lt;footer&gt;Pie de página&lt;/footer&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;figure&gt;</h2>
+			<div class="descripcion">
+				<p>Define un contenido que se puede utilizar como referencia.</p>
+				<p>Ejemplo:&lt;figure&gt;&lt;img src="imagen.jpg" alt="Descripción"&gt;&lt;figcaption&gt;Descripción de la imagen&lt;/figcaption&gt;&lt;/figure&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;figcaption&gt;</h2>
+			<div class="descripcion">
+				<p>Define la descripción de un contenido.</p>
+				<p>Ejemplo:&lt;figcaption&gt;Descripción&lt;/figcaption&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;details&gt;</h2>
+			<div class="descripcion">
+				<p>Define un contenido que se puede mostrar u ocultar.</p>
+				<p>Ejemplo:&lt;details&gt;&lt;summary&gt;Detalles&lt;/summary&gt;&lt;p&gt;Contenido detallado&lt;/p&gt;&lt;/details&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;summary&gt;</h2>
+			<div class="descripcion">
+				<p>Define el resumen de un contenido.</p>
+				<p>Ejemplo:&lt;summary&gt;Resumen&lt;/summary&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;datalist&gt;</h2>
+			<div class="descripcion">
+				<p>Define una lista de opciones para un campo de entrada.</p>
+				<p>Ejemplo:&lt;input list="opciones"&gt;&lt;datalist id="opciones"&gt;&lt;option value="Opción 1"&gt;&lt;/datalist&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;output&gt;</h2>
+			<div class="descripcion">
+				<p>Define el resultado de una operación.</p>
+				<p>Ejemplo:&lt;output name="resultado"&gt;&lt;/output&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;progress&gt;</h2>
+			<div class="descripcion">
+				<p>Define la barra de progreso de una operación.</p>
+				<p>Ejemplo:&lt;progress value="50" max="100"&gt;&lt;/progress&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;meter&gt;</h2>
+			<div class="descripcion">
+				<p>Define una barra de medición.</p>
+				<p>Ejemplo:&lt;meter value="0.6"&gt;&lt;/meter&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;abbr&gt;</h2>
+			<div class="descripcion">
+				<p>Define una abreviatura.</p>
+				<p>Ejemplo:&lt;abbr title="Abreviatura"&gt;ABR&lt;/abbr&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;address&gt;</h2>
+			<div class="descripcion">
+				<p>Define la información de contacto de un autor o una organización.</p>
+				<p>Ejemplo:&lt;address&gt;Dirección&lt;/address&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;area&gt;</h2>
+			<div class="descripcion">
+				<p>Define un área de una imagen que se puede utilizar como enlace.</p>
+				<p>Ejemplo:&lt;map name="mapa"&gt;&lt;area shape="rect" coords="0,0,100,100" href="#"&gt;&lt;/map&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;audio&gt;</h2>
+			<div class="descripcion">
+				<p>Define un archivo de audio.</p>
+				<p>Ejemplo:&lt;audio src="audio.mp3" controls&gt;&lt;/audio&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;b&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto en negrita.</p>
+				<p>Ejemplo:&lt;b&gt;Negrita&lt;/b&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;bdi&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe renderizar en una dirección diferente a la del texto circundante.</p>
+				<p>Ejemplo:&lt;bdi&gt;Texto&lt;/bdi&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;bdo&gt;</h2>
+			<div class="descripcion">
+				<p>Define la dirección del texto.</p>
+				<p>Ejemplo:&lt;bdo dir="rtl"&gt;Texto&lt;/bdo&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;br&gt;</h2>
+			<div class="descripcion">
+				<p>Define un salto de línea.</p>
+				<p>Ejemplo:&lt;br&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;canvas&gt;</h2>
+			<div class="descripcion">
+				<p>Define un área de dibujo en una página web.</p>
+				<p>Ejemplo:&lt;canvas id="lienzo" width="200" height="100"&gt;&lt;/canvas&gt;</p>
+			</div>
+		</div>
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;cite&gt;</h2>
+			<div class="descripcion">
+				<p>Define la cita de un texto.</p>
+				<p>Ejemplo:&lt;cite&gt;Título de la obra&lt;/cite&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;code&gt;</h2>
+			<div class="descripcion">
+				<p>Define un fragmento de código.</p>
+				<p>Ejemplo:&lt;code&gt;console.log("Hola");&lt;/code&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;data&gt;</h2>
+			<div class="descripcion">
+				<p>Define un fragmento de datos.</p>
+				<p>Ejemplo:&lt;data value="123"&gt;Datos&lt;/data&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;dfn&gt;</h2>
+			<div class="descripcion">
+				<p>Define la definición de un término.</p>
+				<p>Ejemplo:&lt;dfn&gt;Término definido&lt;/dfn&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;dialog&gt;</h2>
+			<div class="descripcion">
+				<p>Define un diálogo.</p>
+				<p>Ejemplo:&lt;dialog open&gt;&lt;p&gt;Diálogo abierto&lt;/p&gt;&lt;/dialog&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;embed&gt;</h2>
+			<div class="descripcion">
+				<p>Define un objeto incrustado.</p>
+				<p>Ejemplo:&lt;embed src="archivo.pdf" type="application/pdf"&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;fieldset&gt;</h2>
+			<div class="descripcion">
+				<p>Define un grupo de campos de un formulario.</p>
+				<p>Ejemplo:&lt;fieldset&gt;&lt;legend&gt;Grupo&lt;/legend&gt;&lt;input type="text"&gt;&lt;/fieldset&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;i&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto en cursiva.</p>
+				<p>Ejemplo:&lt;i&gt;Cursiva&lt;/i&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;iframe&gt;</h2>
+			<div class="descripcion">
+				<p>Define un marco incrustado.</p>
+				<p>Ejemplo:&lt;iframe src="pagina.html"&gt;&lt;/iframe&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;ins&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se ha insertado.</p>
+				<p>Ejemplo:&lt;ins&gt;Texto insertado&lt;/ins&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;kbd&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe introducir mediante el teclado.</p>
+				<p>Ejemplo:&lt;kbd&gt;Ctrl+C&lt;/kbd&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;label&gt;</h2>
+			<div class="descripcion">
+				<p>Define una etiqueta para un campo de un formulario.</p>
+				<p>Ejemplo:&lt;label for="nombre"&gt;Nombre:&lt;/label&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;legend&gt;</h2>
+			<div class="descripcion">
+				<p>Define una leyenda para un grupo de campos de un formulario.</p>
+				<p>Ejemplo:&lt;legend&gt;Leyenda&lt;/legend&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;link&gt;</h2>
+			<div class="descripcion">
+				<p>Define un enlace a un recurso externo.</p>
+				<p>Ejemplo:&lt;link rel="stylesheet" href="estilos.css"&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;map&gt;</h2>
+			<div class="descripcion">
+				<p>Define un mapa de imagen.</p>
+				<p>Ejemplo:&lt;map name="mapa"&gt;&lt;area shape="rect" coords="0,0,100,100" href="#"&gt;&lt;/map&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;mark&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe resaltar.</p>
+				<p>Ejemplo:&lt;mark&gt;Resaltado&lt;/mark&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;menu&gt;</h2>
+			<div class="descripcion">
+				<p>Define un menú de opciones.</p>
+				<p>Ejemplo:&lt;menu&gt;&lt;li&gt;&lt;button&gt;Opción&lt;/button&gt;&lt;/li&gt;&lt;/menu&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;menuitem&gt;</h2>
+			<div class="descripcion">
+				<p>Define un elemento de un menú.</p>
+				<p>Ejemplo:&lt;menuitem label="Opción"&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;meta&gt;</h2>
+			<div class="descripcion">
+				<p>Define un metadato para un documento.</p>
+				<p>Ejemplo:&lt;meta charset="UTF-8"&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;noscript&gt;</h2>
+			<div class="descripcion">
+				<p>Define un contenido que se debe mostrar cuando el navegador no admite JavaScript.</p>
+				<p>Ejemplo:&lt;noscript&gt;JavaScript no está disponible&lt;/noscript&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;object&gt;</h2>
+			<div class="descripcion">
+				<p>Define un objeto incrustado.</p>
+				<p>Ejemplo:&lt;object data="archivo.swf" type="application/x-shockwave-flash"&gt;&lt;/object&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;optgroup&gt;</h2>
+			<div class="descripcion">
+				<p>Define un grupo de opciones en un menú desplegable.</p>
+				<p>Ejemplo:&lt;optgroup label="Grupo"&gt;&lt;option&gt;Opción&lt;/option&gt;&lt;/optgroup&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;option&gt;</h2>
+			<div class="descripcion">
+				<p>Define una opción en un menú desplegable.</p>
+				<p>Ejemplo:&lt;option&gt;Opción&lt;/option&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;param&gt;</h2>
+			<div class="descripcion">
+				<p>Define un parámetro para un objeto incrustado.</p>
+				<p>Ejemplo:&lt;param name="parametro" value="valor"&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;picture&gt;</h2>
+			<div class="descripcion">
+				<p>Define un contenedor para varias fuentes de imagen.</p>
+				<p>Ejemplo:&lt;picture&gt;&lt;source srcset="imagen-grande.jpg" media="(min-width: 800px)"&gt;&lt;img src="imagen-pequena.jpg" alt="Imagen"&gt;&lt;/picture&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;pre&gt;</h2>
+			<div class="descripcion">
+				<p>Define un bloque de texto preformateado.</p>
+				<p>Ejemplo:&lt;pre&gt;Texto preformateado&lt;/pre&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;q&gt;</h2>
+			<div class="descripcion">
+				<p>Define una cita en línea.</p>
+				<p>Ejemplo:&lt;q&gt;Cita&lt;/q&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;rb&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe renderizar en una dirección diferente a la del texto circundante.</p>
+				<p>Ejemplo:&lt;rb&gt;Texto&lt;/rb&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;rp&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe renderizar en una dirección diferente a la del texto circundante.</p>
+				<p>Ejemplo:&lt;rp&gt;Texto&lt;/rp&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;rt&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe renderizar en una dirección diferente a la del texto circundante.</p>
+				<p>Ejemplo:&lt;rt&gt;Texto&lt;/rt&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;rtc&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe renderizar en una dirección diferente a la del texto circundante.</p>
+				<p>Ejemplo:&lt;rtc&gt;Texto&lt;/rtc&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;ruby&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe renderizar en una dirección diferente a la del texto circundante.</p>
+				<p>Ejemplo:&lt;ruby&gt;Texto&lt;/ruby&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;s&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe mostrar con una línea que lo atraviesa.</p>
+				<p>Ejemplo:&lt;s&gt;Texto tachado&lt;/s&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;samp&gt;</h2>
+			<div class="descripcion">
+				<p>Define un fragmento de código de muestra.</p>
+				<p>Ejemplo:&lt;samp&gt;Salida de ejemplo&lt;/samp&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;script&gt;</h2>
+			<div class="descripcion">
+				<p>Define un bloque de código JavaScript.</p>
+				<p>Ejemplo:&lt;script&gt;console.log("Hola");&lt;/script&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;select&gt;</h2>
+			<div class="descripcion">
+				<p>Define un menú desplegable.</p>
+				<p>Ejemplo:&lt;select&gt;&lt;option&gt;Opción&lt;/option&gt;&lt;/select&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;slot&gt;</h2>
+			<div class="descripcion">
+				<p>Define un contenedor para un fragmento de código.</p>
+				<p>Ejemplo:&lt;slot name="nombre"&gt;&lt;/slot&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;small&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe mostrar en una fuente más pequeña.</p>
+				<p>Ejemplo:&lt;small&gt;Texto pequeño&lt;/small&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;source&gt;</h2>
+			<div class="descripcion">
+				<p>Define una fuente de multimedia.</p>
+				<p>Ejemplo:&lt;source src="video.mp4" type="video/mp4"&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;strong&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe mostrar en negrita.</p>
+				<p>Ejemplo:&lt;strong&gt;Texto en negrita&lt;/strong&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;style&gt;</h2>
+			<div class="descripcion">
+				<p>Define un bloque de código CSS.</p>
+				<p>Ejemplo:&lt;style&gt;p { color: red; }&lt;/style&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;sub&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe mostrar como subíndice.</p>
+				<p>Ejemplo:&lt;sub&gt;2&lt;/sub&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;sup&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe mostrar como superíndice.</p>
+				<p>Ejemplo:&lt;sup&gt;2&lt;/sup&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;table&gt;</h2>
+			<div class="descripcion">
+				<p>Define una tabla de datos.</p>
+				<p>Ejemplo:&lt;table&gt;&lt;tr&gt;&lt;td&gt;Dato&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;tbody&gt;</h2>
+			<div class="descripcion">
+				<p>Define el cuerpo de una tabla.</p>
+				<p>Ejemplo:&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Dato&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;td&gt;</h2>
+			<div class="descripcion">
+				<p>Define una celda de una tabla.</p>
+				<p>Ejemplo:&lt;td&gt;Dato&lt;/td&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;template&gt;</h2>
+			<div class="descripcion">
+				<p>Define un contenedor para un fragmento de código.</p>
+				<p>Ejemplo:&lt;template&gt;&lt;p&gt;Contenido&lt;/p&gt;&lt;/template&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;textarea&gt;</h2>
+			<div class="descripcion">
+				<p>Define un área de texto en un formulario.</p>
+				<p>Ejemplo:&lt;textarea&gt;Texto&lt;/textarea&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;tfoot&gt;</h2>
+			<div class="descripcion">
+				<p>Define el pie de una tabla.</p>
+				<p>Ejemplo:&lt;tfoot&gt;&lt;tr&gt;&lt;td&gt;Pie&lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;th&gt;</h2>
+			<div class="descripcion">
+				<p>Define una celda de encabezado en una tabla.</p>
+				<p>Ejemplo:&lt;th&gt;Encabezado&lt;/th&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;thead&gt;</h2>
+			<div class="descripcion">
+				<p>Define el encabezado de una tabla.</p>
+				<p>Ejemplo:&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Encabezado&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</p>
+			</div>
+		</div>
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;time&gt;</h2>
+			<div class="descripcion">
+				<p>Define una fecha y hora.</p>
+				<p>Ejemplo:&lt;time datetime="2023-10-27"&gt;27 de octubre de 2023&lt;/time&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;tr&gt;</h2>
+			<div class="descripcion">
+				<p>Define una fila en una tabla.</p>
+				<p>Ejemplo:&lt;tr&gt;&lt;td&gt;Dato&lt;/td&gt;&lt;/tr&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;track&gt;</h2>
+			<div class="descripcion">
+				<p>Define pistas de texto para elementos multimedia (como subtítulos).</p>
+				<p>Ejemplo:&lt;track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español"&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;u&gt;</h2>
+			<div class="descripcion">
+				<p>Define un texto que se debe mostrar con una línea subrayada.</p>
+				<p>Ejemplo:&lt;u&gt;Texto subrayado&lt;/u&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;ul&gt;</h2>
+			<div class="descripcion">
+				<p>Define una lista no ordenada.</p>
+				<p>Ejemplo:&lt;ul&gt;&lt;li&gt;Elemento&lt;/li&gt;&lt;/ul&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;var&gt;</h2>
+			<div class="descripcion">
+				<p>Define una variable.</p>
+				<p>Ejemplo:&lt;var&gt;x&lt;/var&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;video&gt;</h2>
+			<div class="descripcion">
+				<p>Define un archivo de video.</p>
+				<p>Ejemplo:&lt;video src="video.mp4" controls&gt;&lt;/video&gt;</p>
+			</div>
+		</div>
+		
+		<div class="etiqueta">
+			<h2>Etiqueta &lt;wbr&gt;</h2>
+			<div class="descripcion">
+				<p>Define un punto de ruptura de línea.</p>
+				<p>Ejemplo:&lt;p&gt;Texto largo con&lt;wbr&gt;punto de ruptura&lt;/p&gt;</p>
+			</div>
+		</div>		
+		
+<script>
+    function modoOscuro(){
+        document.body.classList.toggle("dark-mode");
+    
+    }
+</script>
+<style>
+	h1{
+		transition: all 0,3s;
+		text-align: center;
+		
+	}
+	body {
+		transition: all 0,3s;
+		font-family: Arial, sans-serif;
+		background-color: #f0f0f0;
+		
+	}
+	
+	.etiqueta {
+		transition: all 0,3s;
+		margin-bottom: 20px;
+		
+	}
+	
+	.etiqueta h2 {
+		transition: all 0,3s;
+		margin-top: 0;
+		margin: 40px;
+		
+	}
+	
+	.descripcion {
+		transition: all 0,3s;
+		text-align: center;
+		background-color: #e0e0e0;
+		padding: 10px;
+		border: 1px solid #ccc;
+		margin:40px
+		
+	}
+	.container{
+		transition: all 0,3s;
+		width: 80%;
+		margin: 40px auto;
+		border: solid 7px;
+		justify-content: center;
+		text-align: center;
+		
+	}
+	button{
+		transition: all 0,3s;
+		margin: 20px;
+		border: solid 2px;
+		padding: 10px;
+		cursor: pointer;
+	}
+	.dark-mode{
+		transition: all 0,3s;
+		background-color: black;
+		transition: all 0,3s;
+	}
+	.dark-mode .container{
+		transition: all 0,3s;
+		background-color: #333;
+		color: #e0e0e0;
+		
+	}
+	.dark-mode .descripcion{
+		transition: all 0,3s;
+		color: #e0e0e0;
+		background-color: #333;
+		border: solid #e0e0e0;
+		
+	}
+	button:hover{
+		transition: all 0,3s;
+		background-color: #333;
+		color: #f0f0f0;
+		cursor: pointer;
+	}
+	.dark-mode button:hover{
+		transition: all 0,3s;
+		background-color: #e0e0e0;
+		color: #333;
+	}
+	.dark-mode button{
+		background-color: #333;
+		color: #e0e0e0;
+		border: solid 2px;
+	}
+</style>
+</body>
+</html>

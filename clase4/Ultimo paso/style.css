@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+h1{
+color: #333;
+text-align: center;
+transition: all 0.3s;
+}
+.container{
+            width: 70%;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0
+            .5);
+            display: flex;
+            flex-direction:column;
+            text-align: center;
+            transition: all 0.3s;
+            
+            }
+            .container h2{
+                color: #333;
+                text-align: center;
+                }
+                .container p{
+                    color: #333;
+                    text-align: justify;
+                    transition: all 0.3s;
+                    }
+                    .container button{
+                        background-color: white;
+                        color: #333;
+                        border: 1px solid #ddd;
+                        padding: 10px 20px;
+                        transition: all 0.3s;
+                        cursor: pointer;
+                    }
+                    .container button:hover{
+                        background-color: #333;
+                        color: white;
+                        transition: all 0.3s;
+                        cursor: pointer;
+                        }
+                        .dark-mode .container{
+                            background-color: black;
+            
+                            transition: background-color 0.3s, color 0.3s;
+                        }
+                        .btn{
+                            margin-right: 10px ;
+                        }
+                        .btn1{
+                            margin-left: 10px ;
+                        }
+                        
+    
+                        .dark-mode{
+                            background-color: black;
+                            color: white;
+                            transition: background-color 0.3s, color 0.3s;
+                        }
+                        .dark-mode button{
+                            background-color: black;
+                            color: white;
+                            transition: background-color 0.3s, color 0.3s;
+                            border-color: white;
+                        }
+                        .dark-mode button:hover{
+                            background-color: white;
+                            color: black;
+                            transition: background-color 0.3s, color 0.3s;
+                            border-color: black;
+                        }
+
+                   

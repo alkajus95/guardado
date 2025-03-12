@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Calculadora de promedio de notas</h1>
+        </div>
+        <div class="main">
+            <h3>Ingrese sus notas (del 1 al 10)</h3>
+            <form>
+                Nota1
+                <br>
+                <input type="decimal" id="nota1" name="nota1" min="1" max="10" required>
+                <br>
+                Nota2
+                <br>
+                <input type="decimal" id="nota2" name="nota2" min="1" max="10" required>
+                <br>
+                Nota3
+                <br>
+                <input type="decimal" id="nota3" name="nota3" min="1" max="10" required>
+                <br>
+                Nota4
+                <br>
+                <input type="decimal" id="nota4" name=" nota4" min="1" max="10" required>
+                <br>
+                <button type="submit">Calcular promedio</button>
+                </form>
+                <div class="resultados">
+                <p id="promedio"></p>
+                <p id="resultado"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
